@@ -1,0 +1,1 @@
+export {default as RentPlansScreen} from './RentPlansScreen';

@@ -1,0 +1,1 @@
+export {default as CategoryScreenStyle} from './CategoryScreenStyle';
