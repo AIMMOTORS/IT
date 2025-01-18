@@ -1,0 +1,38 @@
+/* Customize Selectize dropdown styles */
+.selectize-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.selectize-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #37c6f5; /* Set the background color of the dropdown */
+}
+
+.selectize-dropdown-content {
+    max-height: 200px; /* Adjust the maximum height of the dropdown */
+    overflow-y: auto;
+}
+
+.selectize-dropdown-content .option {
+    padding: 8px 10px;
+    cursor: pointer;
+    color: #000; /* Set the text color of the dropdown options */
+}
+
+/* Highlight the hovered option */
+.selectize-dropdown-content .active {
+    background-color: #fff; /* Background color of hovered option */
+    color: #37c6f5; /* Text color of hovered option */
+}
+/* Initially, hide the dropdown icon by rotating it 0 degrees */
+.dropdown-icon {
+    transition: transform 0.3s ease;
+}
+
+    /* When the select is clicked, rotate the icon 180 degrees */
+.custom-select-container.open .dropdown-icon {
+    transform: rotate(180deg);
+}

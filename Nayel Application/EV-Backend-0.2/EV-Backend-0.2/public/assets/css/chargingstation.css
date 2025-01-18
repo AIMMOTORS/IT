@@ -1,0 +1,4 @@
+/* Hide the close (cancel) button on the Leaflet popup */
+.leaflet-popup-close-button {
+    display: none;
+}

@@ -1,0 +1,13 @@
+
+/* Remove default styles for button */
+.btn-delete {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Style the trash icon */
+.btn-delete i.fa.fa-trash {
+    color: #37c6f5;
+    font-size: 24px; /* Adjust the size as needed */
+}

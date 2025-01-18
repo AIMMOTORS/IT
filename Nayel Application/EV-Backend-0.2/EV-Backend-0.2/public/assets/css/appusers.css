@@ -1,0 +1,9 @@
+select{
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+option{
+    color: #37c6f5;
+    background-color: white;
+}

@@ -1,0 +1,72 @@
+.email-success{
+    padding: 50px;
+}
+
+.email-header{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo-container img {
+    max-width: 120%;
+    max-height: 120%;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+h1{
+    text-align: center;
+    color: #37c6f5;
+    font-size: 32px;
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* Media query for screens smaller than 340px */
+@media (max-width: 340px) {
+    .email-header {
+        max-width: 300px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Media query for screens smaller than 280px */
+@media (max-width: 280px) {
+    .email-header {
+        max-width: 250px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
